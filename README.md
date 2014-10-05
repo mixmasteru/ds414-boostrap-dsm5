@@ -52,7 +52,6 @@ Extend the PATH variable 'PATH=$PATH:/opt/bin:/opt/sbin' - check the [synology w
 # DSM 5 - Install Community python 2.7.x
 
 Install [Synology python 2.7.8] from paket center
-```
 
 Run python
 ```
