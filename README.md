@@ -51,18 +51,13 @@ Extend the PATH variable 'PATH=$PATH:/opt/bin:/opt/sbin' - check the [synology w
 
 # DSM 5 - Install Community python 2.7.x
 
-Install [Community python 2.7.x] (http://www.synocommunity.com/). This python package include pycrypto module. 
-[GitHub SynoCommunity] (https://github.com/SynoCommunity)
-
-Set sym link.
-```
-ln -s /volume1/@appstore/python/bin/python /usr/bin/python
+Install [Synology python 2.7.8] from paket center
 ```
 
 Run python
 ```
 /usr/bin/python
-Python 2.7.6 (default, Nov 11 2013, 13:32:18)
+Python 2.7.8 (default, Jul 31 2014, 14:42:32)
 ```
 
 # DSM 5 - Install duplicity
@@ -98,7 +93,7 @@ change interpreter from
 ```
 to 
 ```
-#!/usr/bin/python
+#!/usr/local/bin/python2
 ```
 
 Run again:
